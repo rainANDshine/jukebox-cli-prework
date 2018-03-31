@@ -49,8 +49,9 @@ def list(songs)
     puts "#{index+1}. #{val}"
   end
 end
+
+def exit_jukebox
   
-      
       
       
       
