@@ -57,8 +57,7 @@ end
 def run(songs)
   help
   puts "Please enter a command:"
-  
-  while input != "exit" do
+  while true do
     input = gets.chomp
     if input == "list"
       list
@@ -66,10 +65,11 @@ def run(songs)
       play
     elsif input == "help"
       help
+    elsif input == "exit"
+      exit_jukebox
+      break
     end
   end
-  
-  exit_jukebox
 end
   
       
