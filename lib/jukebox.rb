@@ -45,7 +45,8 @@ def play(songs)
 end
       
 def list(songs)
-  puts "Phoenix - 1901"
+  #puts "Phoenix - 1901"
+  songs.each_with_index ||
 end
   
       
