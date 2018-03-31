@@ -45,7 +45,7 @@ def play(songs)
 end
       
 def list(songs)
-  "Phoenix - 1901"
+  puts "Phoenix - 1901"
 end
   
       
