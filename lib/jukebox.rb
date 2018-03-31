@@ -18,6 +18,9 @@ def help
   puts "- exit : exits this program"
 end
 
-def play(song)
+def play(songs)
   puts "Please enter a song name or number:"
   input = gets.chomp
+  case input
+    when 1
+      Playing
