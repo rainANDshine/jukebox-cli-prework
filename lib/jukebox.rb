@@ -22,7 +22,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   input = gets.chomp
   if input == "1" || input == "Phoenix - 1901"
-    puts "#{songs[0]}"
+    puts "Playing #{songs[0]}"
   elsif  input == "2" || input == "Tokyo Police Club - Wait Up"
     puts "#{songs[1]}"
   elsif  input == "3" || input == "Sufjan Stevens - Too Much"
