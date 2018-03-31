@@ -19,4 +19,5 @@ def help
 end
 
 def play(song)
-  
+  puts "Please enter a song name or number:"
+  input = gets.chomp
