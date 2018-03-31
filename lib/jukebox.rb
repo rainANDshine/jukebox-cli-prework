@@ -41,7 +41,7 @@ def play(songs)
     when 9
       puts "Playing #{songs[8]}"
     else
-      puts 
+      puts "Invalid input, please try again"
   end
       
       
