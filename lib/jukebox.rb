@@ -23,4 +23,4 @@ def play(songs)
   input = gets.chomp
   case input
     when 1
-      Playing
+      puts "Playing #{songs[0]}"
