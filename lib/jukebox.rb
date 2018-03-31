@@ -24,3 +24,38 @@ def play(songs)
   case input
     when 1
       puts "Playing #{songs[0]}"
+    when 2
+      puts "Playing #{songs[1]}"
+    when 3
+      puts "Playing #{songs[2]}"
+    when 4
+      puts "Playing #{songs[3]}"
+    when 5
+      puts "Playing #{songs[4]}"
+    when 6
+      puts "Playing #{songs[5]}"
+    when 7
+      puts "Playing #{songs[6]}"
+    when 8
+      puts "Playing #{songs[7]}"  
+    when 9
+      puts "Playing #{songs[8]}"
+    else
+      puts 
+  end
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
