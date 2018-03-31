@@ -26,23 +26,24 @@ def play(songs)
       puts "Playing #{songs[0]}"
     when 2 || "Tokyo Police Club - Wait Up"
       puts "Playing #{songs[1]}"
-    when 3
+    when 3 || "Sufjan Stevens - Too Much"
       puts "Playing #{songs[2]}"
-    when 4
+    when 4 || "The Naked and the Famous - Young Blood"
       puts "Playing #{songs[3]}"
-    when 5
+    when 5 || "(Far From) Home - Tiga"
       puts "Playing #{songs[4]}"
-    when 6
+    when 6 || "The Cults - Abducted"
       puts "Playing #{songs[5]}"
-    when 7
+    when 7 || "Phoenix - Consolation Prizes"
       puts "Playing #{songs[6]}"
-    when 8
+    when 8 || "Harry Chapin - Cats in the Cradle"
       puts "Playing #{songs[7]}"  
-    when 9
+    when 9 || "Amos Lee - Keep It Loose, Keep It Tight"
       puts "Playing #{songs[8]}"
     else
       puts "Invalid input, please try again"
   end
+end
       
       
       
